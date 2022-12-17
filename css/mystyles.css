@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(232, 255, 232);
+}
+
+/*nav*/
+
+nav {
+    text-decoration: none;
+    display: flex;
+}
+
+.nav {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.nav li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+
+.fixed-nav-bar {
+    position: fixed; top: 0; right:   0;
+z-index: 9999;
+width: 100%;
+height: 100px;
+background-color: #105748;
+justify-content: space-between;
+float: inline-start;
+overflow: hidden;
+text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none ;
+    color: #105748;
+   
+}
+
+li {
+padding: 10px;
+color: #105748;
+}
+
+
+style
+body {
+    background-color: rgb(81, 189, 46);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 75px;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif, cursive;
+    text-align: center;
+    color: rgb(165, 14, 30);
+    margin-block-start: 150px;
+    margin-block-end: 87px;
+}
+
+h3 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2em;
+}
+a:visited {color: rgb(165,14,30);}
+h1:hover {color: rgb(165,14,30);}
+
+#top { 
+    width: 50%;
+    margin:auto;
+    display: block;
+    border: 5px rgb(169, 21, 21) solid;
+    border-radius: 10px;
+    padding: 5px ;
+}
+
+.unique {
+    margin-left: 3em;
+}
+
+.center {
+display:block;
+margin-left: auto;
+margin-right: auto;
+width: 55%;
+}
+
+.candycaneboi {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+
+}
+.crazythang { content: center; font-style: normal; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: aquamarine;}
